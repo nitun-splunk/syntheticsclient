@@ -78,7 +78,7 @@ type StepsV2 struct {
 	Action             string  `json:"action,omitempty"`
 	WaitForNav         bool    `json:"waitForNav"`
 	WaitForNavTimeout  int     `json:"waitForNavTimeout,omitempty"`
-	MaxWaitTime        int     `json:"maxWaitTime"`
+	MaxWaitTime        int     `json:"maxWaitTime,omitempty"`
 	SelectorType       string  `json:"selectorType,omitempty"`
 	Selector           string  `json:"selector,omitempty"`
 	OptionSelectorType string  `json:"optionSelectorType,omitempty"`
